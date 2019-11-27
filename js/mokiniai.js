@@ -5,7 +5,6 @@ xhr.onreadystatechange = function () {
         var mokiniai = JSON.parse(xhr.responseText);
 
         let output = '';
-        let x = '';
         for (var i = 0; i < mokiniai.length; i++) {
                 // output += '<li>'+mokiniai[i].vardas+'</li>';
                 if(mokiniai[i].lokacija === true){
